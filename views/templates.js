@@ -9,7 +9,6 @@ const nav = () => `
   <ul id="nav">
     <li> <a href="/">Home</a></li>
     <li> <a href="/users">Users</a></li>
-    <li> <a href="/users/create">Add User</a></li>
   </ul>
 `
 

@@ -25,7 +25,7 @@ INSERT INTO users(name, age) VALUES ('flood', 33);
 INSERT INTO users(name, age) VALUES ('lucia', 21);
 INSERT INTO users(name, age) VALUES ('david', 50);
 
-INSERT INTO medicine(med_name, dose) VALUES ('fun', 5);
+INSERT INTO medicine(med_name, dose) VALUES ('fun', 5) RETURNING *;
 INSERT INTO medicine(med_name, dose) VALUES ('cool', 2);
 INSERT INTO medicine(med_name, dose) VALUES ('coding', 10);
 INSERT INTO medicine(med_name, dose) VALUES ('poop', 2);

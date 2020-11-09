@@ -2,11 +2,23 @@ h1 {
   text-align: center;
 }
 
+button {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
 #users-container {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+}
+
+#form-container {
+  text-align: center;
 }
 
 .user {
@@ -48,7 +60,7 @@ li {
 .med-item {
   border: 3px solid blue;
   flex-basis: 25%;
-  margin: 0 1vw;
+  margin: 1vw;
 }
 
 .container h3 {

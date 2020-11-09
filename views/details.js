@@ -8,6 +8,13 @@ ${head({title: "User"})}
   <div class="container">
     <h1> ${user.name} </h1>
     <h3> Medications </h3>
+    <div>
+      <form method="POST" action="/users/${user.id}/addmed">
+        <input name="med_name" />
+        <input name="dose" />
+        <button> Add Medication </button>
+      </form>
+    </div>
     <div id="med-container">
       ${meds.map(m => html`<div class="med-item">
         <h3>${m.med_name}</h3>
