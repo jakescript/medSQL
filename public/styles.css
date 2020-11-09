@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+}
+
+#users-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.user {
+  width: 50vw;
+  border: 2px solid black;
+  margin: 1vw;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.user p {
+  margin-left: 50%;
+  text-align: right;
+}
+
+.user a {
+  text-align: left;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+#med-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 50vw;
+}
+
+.med-item {
+  border: 3px solid blue;
+  flex-basis: 25%;
+  margin: 0 1vw;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
